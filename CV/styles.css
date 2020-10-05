@@ -1,10 +1,49 @@
-body{
+body {
     margin: 0 auto;
-    text-align: center;
-    background-color: #00a5e2;
+    text-align: left;
+    background-color: #565656;
+    font-family: Verdana, sans-serif;
+
 }
-.cetner{
 
+.center {
+    background-color: #fff;
     max-width: 1024px;
+    margin: 30px auto;
+    padding: 50px 50px 10px 50px;
+    box-shadow: #000 10px 10px 10px;
+}
 
+hr {
+    border: none;
+    width: 100%;
+    background-color: #000;
+    height: 2px;
+
+}
+
+h1, h2 {
+    text-align: center;
+    margin: 0 auto;
+}
+
+table {
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+p {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+td {
+    padding-right: 70px;
+    vertical-align: top;
+}
+
+footer {
+    text-align: center;
+    margin-top: 100px;
 }
